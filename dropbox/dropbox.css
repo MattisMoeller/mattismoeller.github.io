@@ -1,0 +1,40 @@
+main{
+    border: solid 10px black;
+    margin:auto;
+    width: 1000px;
+}
+
+header{
+    border: solid 10 px black;
+    text-align: center;
+    color: white;
+}
+
+.box{
+    border: 10px solid black;
+   /* width: 100px;*/ 
+   display: flex;
+   justify-content: center;
+}
+body{
+    background-color: black;
+    
+}
+.bilder{
+    width: 900px;
+}
+
+.bilder{
+     /* display: block; 
+     margin-left: auto;
+     margin-right: auto;
+      width: 50%;  */
+
+
+}
+
+/*
+h1{
+font-size: larger;
+
+}
