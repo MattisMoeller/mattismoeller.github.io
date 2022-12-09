@@ -1,0 +1,158 @@
+@media (orientation: landscape) {
+    nav {
+        display: flex;
+        height: 48px;
+        background-color: black;
+        top: 0;
+        position: sticky;
+    }
+    
+    #logocont {
+        height: 48px;
+        margin: auto;
+        display: flex;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    #logobutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        font-size: 2.5rem;
+        height: 46px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    footer {
+        background-color: black;
+        border: solid 20px black;
+        color: #ffffff;
+        text-align: center;
+        font-size: large;
+
+    }
+    
+    body {
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    
+    /* article {
+    } */
+    
+    /* header {
+        display: flex;
+        justify-content: center;
+    } */
+    
+    .tekstbox1 {
+       
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       font-size: x-large;
+       color:black;
+       
+       
+       
+        /* width: 100%;
+        padding: 10px;
+        background-color: #999999CC;
+        backdrop-filter: saturate(180%) blue(20px);
+        z-index: 1; */
+    }
+    .tekstboks2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    
+    }
+
+    #imgbox {
+        margin: auto;
+        background-color: orange;
+        z-index: -1;
+        
+    }
+
+    #mat {
+        width: 100%;
+        z-index: -1;
+        background-image: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    #gridwrapper {
+        width: 90vw;
+        grid-template-columns: repeat(3,1fr);
+        display: grid;
+        gap: 1vw;
+    }
+    
+    main {
+        background-color: transparent;
+    }
+}
+
+/* MOBILE CSS */
+
+@media (orientation: portrait) {
+    nav {
+        display: flex;
+        width: 100%;
+        height: 48px;
+        background-color: black;
+        top: 0;
+        position: sticky;
+    }
+    
+    #logocont {
+        height: 48px;
+        margin: auto;
+        display: flex;
+        text-align: center;
+        overflow: hidden;
+    }
+    
+    #logobutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        font-size: 2.5rem;
+        height: 46px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    
+    #imgbox {
+        margin: auto;
+        background-color: orange;
+        z-index: -1;
+        
+    }
+
+    #mat {
+        width: 100%;
+        z-index: -1;
+        background-image: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .tekstbox1 {
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: xx-small;
+    }
+}
