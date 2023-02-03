@@ -1,0 +1,14 @@
+table, tr, td{
+    border: solid blueviolet;
+    background-color: blue;
+    
+}
+
+p, table {
+    color: aliceblue;
+}
+
+.main{
+    max-width: fit-content;
+    margin: auto;
+}
